@@ -26,7 +26,7 @@ var blocktrail = new Blocktrail('BTC', key, secret);
 
 var createAddress = blocktrail.createAddress()
 createAddress.then((result) => {
-	console.log(result);
+    console.log(result);
 }, function(err) {
     console.log(err);
 })
