@@ -1,5 +1,5 @@
 # blocktrail_node_sdk
-This is a super-slim version of the original Node.js sdk provided by [https://github.com/blocktrail/blocktrail-sdk-nodejs](Blocktrail). This by no means a replacment for their sdk, I just found their sdk to includ to much and have so many dependcies. And it did not wanna play well with Docker. And I did not need all of the functionallity they offerd.
+This is a super-slim version of the original Node.js sdk provided by [Blocktrail](https://github.com/blocktrail/blocktrail-sdk-nodejs). This by no means a replacment for their sdk, I just found their sdk to includ to much and have so many dependcies. And it did not wanna play well with Docker. And I did not need all of the functionallity they offerd.
 
 To install, just use npm:
 
@@ -7,7 +7,7 @@ To install, just use npm:
 npm install blocktrail_node_sdk
 ```
 
-This sdk is using [https://www.promisejs.org/](Promise)
+This sdk is using [Promise](https://www.promisejs.org/)
 
 Examples
 --------
