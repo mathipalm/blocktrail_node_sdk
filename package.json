@@ -1,0 +1,11 @@
+{
+  "name": "blocktrail_node_sdk",
+  "main": "./lib/blocktrail.js",
+  "version": "0.1.0",
+  "description": "A REST API client for blocktrail",
+  "repository": "https://github.com/mathipalm/blocktrail_node_sdk",
+  "license": "MIT",
+  "dependencies": {
+    "tunnel": "0.0.5"
+  }
+}
