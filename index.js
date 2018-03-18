@@ -8,10 +8,9 @@ var secret = '1a5ebdb846cd1aa18bac4c60824a49e936559888';
 
 var test = new Blocktrail('BTC', key, secret);
 
-var adsf = test.createAddress()
+var adsf = test.createAddress('inacbojasplix_wallet');
 adsf.then((result) => {
 	console.log(result);
 }, function(err) {
     console.log(err);
 })
-// test.performRequest("wallet/inacbojasplix_wallet", "GET");

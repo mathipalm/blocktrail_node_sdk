@@ -24,7 +24,7 @@ var secret = 'your_secret_key';
 // tBTC for testnet
 var blocktrail = new Blocktrail('BTC', key, secret);
 
-var createAddress = blocktrail.createAddress()
+var createAddress = blocktrail.createAddress('wallet_name')
 createAddress.then((result) => {
     console.log(result);
 }, function(err) {
