@@ -13,7 +13,7 @@ Examples
 --------
 
 ```javascript
-const Blocktrail = require('./lib/blocktrail');
+const Blocktrail = require('blocktrail_node_sdk');
 
 var key = 'your_api_key';
 var secret = 'your_secret_key';
