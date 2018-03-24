@@ -18,9 +18,6 @@ const Blocktrail = require('blocktrail_node_sdk');
 var key = 'your_api_key';
 var secret = 'your_secret_key';
 
-// Uncomment this if you want to tunnel through charles, att port 8888
-// process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
-
 // tBTC for testnet
 var blocktrail = new Blocktrail('BTC', key, secret);
 
