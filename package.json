@@ -2,7 +2,7 @@
   "name": "blocktrail_node_sdk",
   "author": "Mathias Palm",
   "main": "./lib/blocktrail.js",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A REST API client for blocktrail",
   "keywords": [
   	"btc",
